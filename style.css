@@ -1,0 +1,712 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+}
+
+.lona {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.logo img {
+    height: 50px;
+    width: 33px;
+    padding-bottom: 1rem;
+}
+
+.logo p {
+    font-size: 30px;
+
+}
+
+header .lona nav {
+    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.7);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 1rem;
+}
+
+header nav ul li a{
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .download-app {
+    background-color: rgb(129, 250, 77);
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .download-app:hover {
+    background-color: #43ee1c;
+}
+
+.hero {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    margin-top: 35px;
+    
+}
+
+.hero .hero-body {
+    background-image: url(hands.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    background-position: center;
+    max-width: 100%;
+    padding: 2rem;
+    width: 100%;
+    height: 500px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.hero-txt {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: 0rem;
+}
+
+.hero-txt h1 {
+    font-size: 9rem;
+    justify-content:baseline;
+    align-items: end;
+    font-family: 'Verdana', sans-serif;
+    align-self: baseline;
+}
+
+.hero-txt .d1 {
+    justify-content: baseline;
+    align-items: baseline;
+    height: 11rem;
+}
+
+.hero-txt .d2 {
+    justify-content: left;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.hero-txt div p {
+    font-size: 1.5rem;
+    
+    line-height: 1rem;
+}
+
+.start-fundraising {
+    background-color: rgb(129, 250, 77);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width:250px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;  
+}
+
+
+  .start-fundraising:hover {
+    background-color: #000000;
+    color:  rgb(129, 250, 77);
+   
+  }
+
+.fund-fast {
+    padding: 3rem 0rem 1rem 0rem;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.fund-fast h2 {
+    font-size: 2.5rem;
+}
+
+.fund-fast p {
+    font-size: 1.5rem;
+}
+
+.features {
+    display: flex;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    height: 18rem;
+}
+
+.f1 {
+    flex: 1;
+    margin: 0rem 1rem 0rem 0rem;
+    background-color: rgba(239, 239, 239, 0.859);
+    box-shadow:  1px 0 1px rgba(0, 0, 0, 0.5),  
+                -1px 0 1px rgba(0, 0, 0, 0.5),  
+                 0 -1px 1px rgba(0, 0, 0, 0.5), 
+                 0 1px 1px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:  baseline;
+    border-radius: 8px;
+}
+
+.f1 img {
+    height: 5.5rem;
+    width: 5.5rem;
+    padding: 0rem 0rem 0.5rem 0.5rem;
+}
+ 
+.f1 h3 {
+    padding: 0.5rem 0rem 1rem 1.3rem;
+}
+
+.f1  p {
+    padding: 0.5rem 1.3rem 1rem 1.3rem;
+}
+
+
+.f2 {
+    flex: 1;
+    margin: 0rem 1rem;
+    background-color: rgba(239, 239, 239, 0.859);
+    box-shadow:  1px 0 1px rgba(0, 0, 0, 0.5),  
+                -1px 0 1px rgba(0, 0, 0, 0.5),  
+                 0 -1px 1px rgba(0, 0, 0, 0.5), 
+                 0 1px 1px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:  baseline;
+    border-radius: 8px;
+}
+
+.f2 img {
+    height: 5.5rem;
+    width: 5.5rem;
+    padding: 0rem 0rem 0.5rem 0.5rem;
+}
+ 
+.f2 h3 {
+    padding: 0.5rem 0rem 1rem 1.3rem;
+}
+
+.f2  p {
+    padding: 0.5rem 1.3rem 1rem 1.3rem;
+}
+
+
+.f3 {
+    flex: 1;
+    margin: 0rem 0rem 0rem 1rem;
+    background-color: rgba(239, 239, 239, 0.859);
+    box-shadow:  1px 0 1px rgba(0, 0, 0, 0.5),  
+                -1px 0 1px rgba(0, 0, 0, 0.5),  
+                 0 -1px 1px rgba(0, 0, 0, 0.5), 
+                 0 1px 1px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:  baseline;
+    border-radius: 8px;
+}
+
+.f3 img {
+    height: 5.5rem;
+    width: 5.5rem;
+    padding: 0rem 0rem 0.5rem 0.5rem;
+}
+ 
+.f3 h3 {
+    padding: 0.5rem 0rem 1rem 1.3rem;
+}
+
+.f3  p {
+    padding: 0.5rem 1.3rem 1rem 1.3rem;
+}
+
+.urgent-fundraising {
+    padding: 1.5rem 0rem;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.urgent-fundraising h2 {
+    font-size: 2.5rem;
+}
+
+.urgent-fundraising p {
+    font-size: 1.5rem;
+}
+
+.join-fundraisers {
+    padding: 2rem 0rem;
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+
+.campaigns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.campaigns .c1 {
+    flex: 1;
+    margin: 0rem 1rem 0rem 0rem;
+    text-align: left;
+}
+
+.campaigns .c1 img {
+    width: 100%;
+    height:65%;
+    border-radius: 8px;
+}
+
+.campaigns .c1 .p1 {
+    color: rgb(163, 163, 163);
+}
+
+.campaigns .c1 h3 {
+    padding-bottom: 5px;
+}
+
+.campaigns .c1 .p-bar1 {
+    height: 1.5%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    
+}
+
+
+.campaigns .c1 .p-bar1 div{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(129, 250, 77);
+    border-radius: 5px;
+}
+
+.campaigns .c1  .data1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.campaigns .c1  .data1 .rp1 {
+    color: rgb(163, 163, 163);
+}
+
+.campaigns .c2 {
+    flex: 1;
+    margin: 0rem 1rem 0rem 1rem;
+    text-align: left;
+}
+
+.campaigns .c2 img {
+    width: 100%;
+    height:65%;
+    border-radius: 8px;
+}
+
+.campaigns .c2 .p2 {
+    color: rgb(163, 163, 163);
+}
+
+.campaigns .c2 h3 {
+    padding-bottom: 5px;
+}
+
+.campaigns .c2 .p-bar2 {
+    height: 1.5%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+.campaigns .c2 .p-bar2 div{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(129, 250, 77);
+    border-radius: 5px;
+}
+
+.campaigns .c2  .data2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.campaigns .c2  .data2 .rp2 {
+    color: rgb(163, 163, 163);
+}
+
+.campaigns .c3 {
+    flex: 1;
+    margin: 0rem 0rem 0rem 1rem;
+    text-align: left;
+}
+
+.campaigns .c3 img {
+    width: 100%;
+    height:65%;
+    border-radius: 8px;
+}
+
+.campaigns .c3 .p3 {
+    color: rgb(163, 163, 163);
+}
+
+.campaigns .c3 h3 {
+    padding-bottom: 5px;
+}
+
+.campaigns .c3 .p-bar3 {
+    height: 1.5%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+.campaigns .c3 .p-bar3 div{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(129, 250, 77);
+    border-radius: 5px;
+}
+
+.campaigns .c3  .data3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.campaigns .c3  .data3 .rp3 {
+    color: rgb(163, 163, 163);
+}
+
+.join-fundraisers {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    height: fit-content;
+    padding-bottom: 3rem;
+}
+
+.join-fundraisers .left {
+    flex: 1;
+}
+
+.join-fundraisers .left .upper {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.join-fundraisers .left .upper img {
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.join-fundraisers .left .lower {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.join-fundraisers .left .lower img {
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.join-fundraisers .mid {
+    flex: 2;
+}
+
+.join-fundraisers .mid .uh4 {
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.join-fundraisers .mid .bh4 {
+   
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.join-fundraisers .mid p {
+    font-size: 8rem;
+}
+
+.join-fundraisers .right {
+    flex: 1;
+}
+
+.join-fundraisers .right .upper {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.join-fundraisers .right .upper img {
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.join-fundraisers .right .lower {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.join-fundraisers .right .lower img {
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.jfn-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jfn-btn button {
+    height: 4rem;
+    width: 15rem;
+    background-color: rgb(129, 250, 77);
+    color: rgb(29, 110, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.jfn-btn button:hover {
+    background-color: black;
+    color: rgb(129, 250, 77);
+}
+
+.faq {
+    height: auto;
+    width: 100%;
+    padding: 4rem 0rem;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.faq h3 {
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 2.1rem;
+}
+
+.faq .quarry {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 20px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.2);
+    margin-right: 5rem;
+}
+
+.faq .quarry p {
+    padding: 0px 0px;
+    text-align: left;
+    font-size: 1.3rem
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    height: 14rem;
+}
+
+footer .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+footer .upper .left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+footer .upper .left .c-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer .upper .left .c-logo img {
+    height: 30px;
+    width: 30px;
+}
+
+
+footer .upper .left .c-logo p {
+    font-weight: bold;
+    line-height: 1px;
+    font-size: 30px;
+    padding-top: 0rem;
+}
+
+footer .upper .right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+footer .upper .right .donate, .help, .company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin: 1rem;
+}
+
+footer .upper .right .donate p,
+footer .upper .right .help p,
+footer .upper .right .company p{
+      line-height: 1rem;
+}
+
+
+footer .lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    padding-bottom: 1rem;
+}
+
+footer .lower .left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+footer .lower .left p {
+    margin-bottom: 0px;
+}
+
+footer .lower .right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+footer .lower .right div {
+    flex: 1;
+    margin-left: 1rem;
+    box-shadow:  1px 0 1px rgb(255, 255, 255),  
+    -1px 0 1px rgb(255, 255, 255),  
+     0 -1px 1px rgb(255, 255, 255), 
+     0 1px 1px rgb(255, 255, 255); 
+     border-radius: 12px;
+     width: 8rem;
+     height: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+}
