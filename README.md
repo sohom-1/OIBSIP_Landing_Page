@@ -2,6 +2,12 @@
 
 A modern and responsive landing page for a fundraising platform designed to ignite impact, spread awareness, and connect people globally.
 
+---
+## Link
+- *Website Link*: https://sohom-1.github.io/OIBSIP_Landing_Page/
+- *Repository Link*: https://github.com/sohom-1/OIBSIP_Landing_Page
+
+---  
 
 ## 📋 Overview
 
